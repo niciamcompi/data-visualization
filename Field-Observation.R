@@ -17,7 +17,7 @@ library(faux)
 library(scales)
 
 #Import
-load("C:/Users/nici_/OneDrive/Desktop/Dashboard/faux.Rdata")
+load("~/faux.Rdata")
 
 sum <- data.frame(table(faux$Date, faux$Institut))
 sum$Var1 <- as.Date(sum$Var1, format = "%Y-%m-%d")
